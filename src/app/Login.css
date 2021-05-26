@@ -1,0 +1,79 @@
+.logout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: "Helvetica Neue";
+}
+
+.logout_button{
+    min-width: 300px;
+    padding: 17px 30px;
+    margin-top: 20px;
+    background: blue;
+    border: none;
+    color: green;
+    font-size: 15px;
+    font-family: "Helvetica Neue";
+    border-radius: 3px;
+}
+
+.user_name{
+    color:aqua;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: "Helvetica Neue";
+}
+
+.login_form{
+    display: flex;
+    flex-direction: column;   
+}
+
+.login_form > h1{
+    font-size:35px;
+    margin-bottom: 14px;
+    padding-bottom: 10px;
+    letter-spacing: -1px;
+}
+
+.login_form > input{
+    min-width: 380px;
+    padding: 20px 0px;
+    padding-left: 15px;
+    margin-bottom: 10px;
+    outline: none;
+    border: 1px black solid;
+    font-size: 15px;
+    font-family: "Helvetica Neue";
+    border-radius: 2px;
+}
+
+.submit_btn{
+    padding: 17px 30px;
+    margin-top: 20px;
+    background: rgb(117, 117, 224);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: "Helvetica Neue";
+    border-radius: 3px;
+}
+
+.logout_button{
+    padding: 17px 30px;
+    margin-top: 20px;
+    background: rgb(117, 117, 224);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: "Helvetica Neue";
+    border-radius: 3px;
+}
